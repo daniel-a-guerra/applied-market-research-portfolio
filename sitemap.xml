@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  PUBLICATION BLOCKER:
+  Replace https://replace-with-final-domain.invalid/ with the approved final
+  public URL before deployment. The .invalid top-level domain is reserved and
+  cannot resolve as a public destination.
+-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://replace-with-final-domain.invalid/</loc>
+  </url>
+</urlset>
