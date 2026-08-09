@@ -20,9 +20,9 @@ These checks cover local package preparation only and do not authorize publicati
 
 ## Research destinations
 
-- [ ] Deploy the AgroMonetary Research dashboard.
+- [x] Approve and add the AgroMonetary Research dashboard URL: `https://agromonetary-research.streamlit.app/`.
 - [ ] Deploy the Gold–DXY Research dashboard.
-- [ ] Add the final approved dashboard URLs to `config/public-links.js`.
+- [ ] Add the final approved Gold–DXY dashboard URL to `config/public-links.js`.
 - [ ] Add all six final approved public Research Note PDFs.
 - [ ] Verify every final PDF filename against `docs/PUBLIC_CONTENT_INVENTORY.md`.
 - [ ] Confirm that no editable DOCX or internal QA source accompanies the PDFs.
@@ -32,6 +32,7 @@ These checks cover local package preparation only and do not authorize publicati
 - [ ] Replace the reserved `.invalid` sitemap URL with the final domain.
 - [ ] Add the approved sitemap directive to `robots.txt`.
 - [ ] Verify `robots.txt` after the final public paths are known.
+- [ ] Connect `agromonetaryresearch.com` as the custom domain.
 - [ ] Configure GitHub Pages for the approved branch and repository path.
 - [ ] Confirm HTTPS on the final public site.
 

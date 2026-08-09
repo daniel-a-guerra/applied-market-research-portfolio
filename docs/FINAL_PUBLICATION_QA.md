@@ -24,7 +24,7 @@
 - [x] Contact email uses `mailto:daniel@agromonetaryresearch.com`.
 - [x] `PUBLIC_CONTACT_EMAIL` contains only the approved public email.
 - [x] `FINAL_DOMAIN` contains only `agromonetaryresearch.com`.
-- [x] GitHub, dashboard and inactive Research Note placeholders remain empty.
+- [x] GitHub, Gold–DXY dashboard and inactive Research Note placeholders remain empty.
 - [x] No subdomain or additional contact value was introduced.
 
 ## Public LinkedIn integration
@@ -35,6 +35,16 @@
 - [x] The LinkedIn control is keyboard-focusable with a visible focus state.
 - [x] `LINKEDIN_URL` contains only the approved LinkedIn profile URL.
 - [x] GitHub, dashboard and inactive Research Note placeholders remain empty.
+
+## Public Agro dashboard URL integration
+
+- [x] The AgroMonetary Research dashboard action displays `Open public dashboard` in EN.
+- [x] The AgroMonetary Research dashboard action displays `Abrir dashboard público` in ES.
+- [x] The action uses exactly `https://agromonetary-research.streamlit.app/`.
+- [x] The action uses `target="_blank"` and `rel="noopener noreferrer"`.
+- [x] The action is keyboard-focusable with a visible focus state.
+- [x] `AGRO_DASHBOARD_URL` contains only the approved public dashboard URL.
+- [x] Gold–DXY dashboard, GitHub and inactive Research Note placeholders remain empty.
 
 ## Responsive review
 
@@ -58,13 +68,13 @@
 
 ## Public-release safety
 
-- [x] No unapproved external URLs are present; only approved local PDF paths, the confirmed `mailto:` contact and the approved LinkedIn profile are active.
+- [x] No unapproved external URLs are present; only approved local PDF paths, the confirmed `mailto:` contact, the approved LinkedIn profile and the approved AgroMonetary Research dashboard are active.
 - [x] No contact details were invented.
 - [x] No local filesystem paths are present.
 - [x] No credentials or environment values are present.
 - [x] No private-file references or prohibited files are present.
 - [x] All production references use GitHub Pages-compatible relative paths.
-- [x] `config/public-links.js` contains the approved email, LinkedIn profile and final domain while nine unapproved destination placeholders remain empty.
+- [x] `config/public-links.js` contains the approved email, LinkedIn profile, AgroMonetary Research dashboard and final domain while eight unapproved destination placeholders remain empty.
 - [x] Research Note PDF paths remain inactive and no editable Research Note source or QA file is present.
 - [x] `.gitignore` covers temporary files, editable documents, datasets, workbooks, caches, environment files and credentials without excluding approved PDFs.
 - [x] `robots.txt` contains no private paths.
@@ -81,7 +91,9 @@
 
 - [x] Public contact email approved and tested.
 - [x] Public LinkedIn approved and tested.
+- [x] AgroMonetary Research dashboard URL approved and tested.
 - [x] Final domain approved.
+- [ ] Custom domain connected.
 - [ ] Final public links approved and tested.
 - [ ] Final PDFs approved and added.
 - [ ] GitHub Pages configured.
