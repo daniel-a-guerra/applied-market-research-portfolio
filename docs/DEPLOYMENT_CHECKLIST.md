@@ -21,8 +21,7 @@ These checks cover local package preparation only and do not authorize publicati
 ## Research destinations
 
 - [x] Approve and add the AgroMonetary Research dashboard URL: `https://agromonetary-research.streamlit.app/`.
-- [ ] Deploy the Gold–DXY Research dashboard.
-- [ ] Add the final approved Gold–DXY dashboard URL to `config/public-links.js`.
+- [x] Approve and add the Gold–DXY Research dashboard URL: `https://gold-dxy-research.streamlit.app/`.
 - [ ] Add all six final approved public Research Note PDFs.
 - [ ] Verify every final PDF filename against `docs/PUBLIC_CONTENT_INVENTORY.md`.
 - [ ] Confirm that no editable DOCX or internal QA source accompanies the PDFs.

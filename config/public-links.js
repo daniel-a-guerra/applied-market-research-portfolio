@@ -5,7 +5,7 @@
  */
 window.PUBLIC_LINKS = Object.freeze({
   AGRO_DASHBOARD_URL: "https://agromonetary-research.streamlit.app/",
-  GOLD_DXY_DASHBOARD_URL: "",
+  GOLD_DXY_DASHBOARD_URL: "https://gold-dxy-research.streamlit.app/",
   WEEKLY_BRIEFING_ES_PDF: "assets/documents/agro/AMR_Weekly_Briefing_Public_Sample_ES.pdf",
   MONTHLY_STRATEGIC_REPORT_ES_PDF: "assets/documents/agro/AMR_Monthly_Strategic_Report_Public_Sample_ES.pdf",
   AGRO_RESEARCH_NOTE_01_EN_PDF: "",

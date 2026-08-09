@@ -9,7 +9,7 @@ The site demonstrates research process and analytical communication. It is not a
 
 ## Current status
 
-**Local approved candidate with two integrated public product samples, a confirmed public contact email, an approved LinkedIn profile, an approved AgroMonetary Research dashboard URL and an approved final domain.** Final deployment has not been completed. The Gold–DXY dashboard URL, Research Note PDF URLs and GitHub profile URL remain intentionally inactive.
+**Local approved candidate with two integrated public product samples, a confirmed public contact email, an approved LinkedIn profile, approved AgroMonetary Research and Gold–DXY Research dashboard URLs, and an approved final domain.** Final deployment has not been completed. Research Note PDF URLs and the GitHub profile URL remain intentionally inactive.
 
 ## Local preview
 
@@ -67,7 +67,7 @@ Before GitHub Pages is enabled, complete every unresolved item in `docs/DEPLOYME
 
 ## Public-link configuration
 
-`config/public-links.js` contains two active relative paths for the approved Spanish product samples, the confirmed public email `daniel@agromonetaryresearch.com`, the approved LinkedIn profile `https://www.linkedin.com/in/daniel-a-guerra`, the approved AgroMonetary Research dashboard `https://agromonetary-research.streamlit.app/`, and the approved final domain `agromonetaryresearch.com`. The Gold–DXY dashboard, bilingual Research Note PDF and GitHub placeholders remain empty. Empty placeholders must never be replaced with guessed values.
+`config/public-links.js` contains two active relative paths for the approved Spanish product samples, the confirmed public email `daniel@agromonetaryresearch.com`, the approved LinkedIn profile `https://www.linkedin.com/in/daniel-a-guerra`, the approved AgroMonetary Research dashboard `https://agromonetary-research.streamlit.app/`, the approved Gold–DXY Research dashboard `https://gold-dxy-research.streamlit.app/`, and the approved final domain `agromonetaryresearch.com`. The bilingual Research Note PDF and GitHub placeholders remain empty. Empty placeholders must never be replaced with guessed values.
 
 Future activation process:
 
@@ -77,7 +77,7 @@ Future activation process:
 4. Preserve the current inactive wording whenever a value remains empty.
 5. Test every activated destination in EN and ES before publication.
 
-The current landing links directly to the same two approved relative PDF paths, exposes the confirmed email through `mailto:`, and opens both the approved LinkedIn profile and AgroMonetary Research dashboard in new tabs with `noopener noreferrer`. It does not load the configuration file; all other approved inactive behavior remains unchanged.
+The current landing links directly to the same two approved relative PDF paths, exposes the confirmed email through `mailto:`, and opens the approved LinkedIn profile and both approved public dashboards in new tabs with `noopener noreferrer`. It does not load the configuration file; all other approved inactive behavior remains unchanged.
 
 ## Approved public product samples
 

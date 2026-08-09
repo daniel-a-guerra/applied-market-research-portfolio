@@ -6,7 +6,7 @@ This inventory defines what may and may not enter the public repository. Classif
 
 - Approved landing source code: `index.html`, `styles.css` and `script.js`.
 - Bilingual 404 source code.
-- Public-link configuration containing only approved local PDF paths, public email, LinkedIn, AgroMonetary Research dashboard and final domain values; all other destinations remain empty.
+- Public-link configuration containing only approved local PDF paths, public email, LinkedIn, AgroMonetary Research dashboard, Gold–DXY Research dashboard and final domain values; all other destinations remain empty.
 - Approved public descriptions of AgroMonetary Research and Gold–DXY Research.
 - Approved public dashboard capability descriptions and destination status.
 - Approved public Research Note titles, descriptions and evidence labels.
@@ -15,6 +15,7 @@ This inventory defines what may and may not enter the public repository. Classif
 - Confirmed public contact email: `daniel@agromonetaryresearch.com`.
 - Approved LinkedIn profile: `https://www.linkedin.com/in/daniel-a-guerra`.
 - Approved AgroMonetary Research public dashboard: `https://agromonetary-research.streamlit.app/`.
+- Approved Gold–DXY Research public dashboard: `https://gold-dxy-research.streamlit.app/`.
 - Approved final domain: `agromonetaryresearch.com`.
 - Approved disclaimer and non-predictive positioning.
 - Product Samples section with two historical AgroMonetary Research demonstrations.
@@ -26,7 +27,6 @@ The current public product-sample count is **two PDFs**. Both are Spanish-langua
 
 ## Approved but not yet linked
 
-- Gold–DXY Research public dashboard.
 - Three approved bilingual Research Notes, represented by **six expected final PDF files**.
 
 The count of six was verified from the approved landing record: three public Research Note cards, each with an English and Spanish PDF variant.
@@ -45,7 +45,6 @@ None of the six Research Note PDFs listed above is present in this package. Only
 ## Future public
 
 - Approved GitHub profile URL.
-- Approved Gold–DXY Research dashboard URL.
 - Approved public icons or imagery, if later required.
 - Any additional or updated product edition, only after separate public approval.
 
