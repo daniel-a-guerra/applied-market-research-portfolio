@@ -9,7 +9,7 @@ The site demonstrates research process and analytical communication. It is not a
 
 ## Current status
 
-**Local approved candidate with two integrated public product samples, a confirmed public contact email, an approved LinkedIn profile, approved AgroMonetary Research and Gold–DXY Research dashboard URLs, and an approved final domain.** Final deployment has not been completed. Research Note PDF URLs and the GitHub profile URL remain intentionally inactive.
+**Local approved candidate with two integrated public product samples, three bilingual Research Notes, a confirmed public contact email, an approved LinkedIn profile, approved AgroMonetary Research and Gold–DXY Research dashboard URLs, and an approved final domain.** Final deployment has not been completed. The GitHub profile URL remains intentionally inactive.
 
 ## Local preview
 
@@ -49,7 +49,7 @@ Open `http://localhost:8000/` in a browser. Opening `index.html` directly also w
     └── FINAL_PUBLICATION_QA.md
 ```
 
-The Agro document directory contains exactly two approved Spanish-language historical product samples. The remaining document, image and icon directories stay empty until additional public files are explicitly approved.
+The Agro document directory contains exactly two approved Spanish-language historical product samples and four approved Research Note PDFs. The Gold–DXY document directory contains exactly two approved Research Note PDFs. Image and icon directories stay empty until public files are explicitly approved.
 
 ## Bilingual behavior
 
@@ -67,7 +67,7 @@ Before GitHub Pages is enabled, complete every unresolved item in `docs/DEPLOYME
 
 ## Public-link configuration
 
-`config/public-links.js` contains two active relative paths for the approved Spanish product samples, the confirmed public email `daniel@agromonetaryresearch.com`, the approved LinkedIn profile `https://www.linkedin.com/in/daniel-a-guerra`, the approved AgroMonetary Research dashboard `https://agromonetary-research.streamlit.app/`, the approved Gold–DXY Research dashboard `https://gold-dxy-research.streamlit.app/`, and the approved final domain `agromonetaryresearch.com`. The bilingual Research Note PDF and GitHub placeholders remain empty. Empty placeholders must never be replaced with guessed values.
+`config/public-links.js` contains two active relative paths for the approved Spanish product samples, six active relative paths for the approved bilingual Research Notes, the confirmed public email `daniel@agromonetaryresearch.com`, the approved LinkedIn profile `https://www.linkedin.com/in/daniel-a-guerra`, the approved AgroMonetary Research dashboard `https://agromonetary-research.streamlit.app/`, the approved Gold–DXY Research dashboard `https://gold-dxy-research.streamlit.app/`, and the approved final domain `agromonetaryresearch.com`. The GitHub placeholder remains empty. Empty placeholders must never be replaced with guessed values.
 
 Future activation process:
 
@@ -77,7 +77,7 @@ Future activation process:
 4. Preserve the current inactive wording whenever a value remains empty.
 5. Test every activated destination in EN and ES before publication.
 
-The current landing links directly to the same two approved relative PDF paths, exposes the confirmed email through `mailto:`, and opens the approved LinkedIn profile and both approved public dashboards in new tabs with `noopener noreferrer`. It does not load the configuration file; all other approved inactive behavior remains unchanged.
+The current landing links directly to the two approved Product Sample paths and all six approved Research Note paths, exposes the confirmed email through `mailto:`, and opens the approved LinkedIn profile, both approved public dashboards and all PDF destinations in new tabs with `noopener noreferrer`. It does not load the configuration file; all other approved inactive behavior remains unchanged.
 
 ## Approved public product samples
 
@@ -88,20 +88,20 @@ The Product Samples section exposes exactly two historical Spanish-language port
 
 English mode identifies each available document as a **Spanish PDF sample**. No English PDF is claimed or configured. Recurring and updated editions remain part of AgroMonetary Research's private B2B research offering. No editable sources or additional editions are included.
 
-## Expected public Research Note PDFs
+## Approved public Research Note PDFs
 
-Six final PDFs are expected across three approved bilingual Research Notes:
+Six final PDFs are publicly accessible across three approved bilingual Research Notes:
 
 ```text
-assets/documents/agro/agromonetary-research-note-01-en.pdf
-assets/documents/agro/agromonetary-research-note-01-es.pdf
-assets/documents/agro/agromonetary-research-note-02-en.pdf
-assets/documents/agro/agromonetary-research-note-02-es.pdf
-assets/documents/gold-dxy/gold-dxy-research-note-01-en.pdf
-assets/documents/gold-dxy/gold-dxy-research-note-01-es.pdf
+assets/documents/agro/AMR_Research_Note_01_EN.pdf
+assets/documents/agro/AMR_Research_Note_01_ES.pdf
+assets/documents/agro/AMR_Research_Note_02_EN.pdf
+assets/documents/agro/AMR_Research_Note_02_ES.pdf
+assets/documents/gold-dxy/Gold_DXY_Research_Note_01_EN.pdf
+assets/documents/gold-dxy/Gold_DXY_Research_Note_01_ES.pdf
 ```
 
-Only final approved PDFs may be added. Editable DOCX sources and internal QA material must never be placed in the public download directory.
+The two AgroMonetary Research Notes preserve their historical public portfolio evidence classification. The Gold–DXY Research Note preserves its synthetic public research demonstration classification. No editable DOCX source, draft or internal QA material is present in the public download directories.
 
 ## Protected private boundaries
 

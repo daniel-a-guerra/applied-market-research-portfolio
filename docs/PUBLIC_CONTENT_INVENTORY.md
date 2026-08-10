@@ -6,7 +6,7 @@ This inventory defines what may and may not enter the public repository. Classif
 
 - Approved landing source code: `index.html`, `styles.css` and `script.js`.
 - Bilingual 404 source code.
-- Public-link configuration containing only approved local PDF paths, public email, LinkedIn, AgroMonetary Research dashboard, Gold–DXY Research dashboard and final domain values; all other destinations remain empty.
+- Public-link configuration containing only approved Product Sample and Research Note PDF paths, public email, LinkedIn, AgroMonetary Research dashboard, Gold–DXY Research dashboard and final domain values; the unresolved GitHub destination remains empty.
 - Approved public descriptions of AgroMonetary Research and Gold–DXY Research.
 - Approved public dashboard capability descriptions and destination status.
 - Approved public Research Note titles, descriptions and evidence labels.
@@ -21,26 +21,17 @@ This inventory defines what may and may not enter the public repository. Classif
 - Product Samples section with two historical AgroMonetary Research demonstrations.
 - `assets/documents/agro/AMR_Weekly_Briefing_Public_Sample_ES.pdf` — approved Spanish-language historical sample dated 19 June 2026.
 - `assets/documents/agro/AMR_Monthly_Strategic_Report_Public_Sample_ES.pdf` — approved Spanish-language historical sample for June 2026.
+- `assets/documents/agro/AMR_Research_Note_01_EN.pdf` — approved English AgroMonetary Research Note No. 01.
+- `assets/documents/agro/AMR_Research_Note_01_ES.pdf` — approved Spanish AgroMonetary Research Note No. 01.
+- `assets/documents/agro/AMR_Research_Note_02_EN.pdf` — approved English AgroMonetary Research Note No. 02.
+- `assets/documents/agro/AMR_Research_Note_02_ES.pdf` — approved Spanish AgroMonetary Research Note No. 02.
+- `assets/documents/gold-dxy/Gold_DXY_Research_Note_01_EN.pdf` — approved English Gold–DXY Research Note No. 01.
+- `assets/documents/gold-dxy/Gold_DXY_Research_Note_01_ES.pdf` — approved Spanish Gold–DXY Research Note No. 01.
 - Public-release documentation contained in `README.md` and `docs/`.
 
 The current public product-sample count is **two PDFs**. Both are Spanish-language historical portfolio demonstrations. No English sample, editable source, recurring edition or additional product edition is included.
 
-## Approved but not yet linked
-
-- Three approved bilingual Research Notes, represented by **six expected final PDF files**.
-
-The count of six was verified from the approved landing record: three public Research Note cards, each with an English and Spanish PDF variant.
-
-Expected final PDF paths:
-
-1. `assets/documents/agro/agromonetary-research-note-01-en.pdf`
-2. `assets/documents/agro/agromonetary-research-note-01-es.pdf`
-3. `assets/documents/agro/agromonetary-research-note-02-en.pdf`
-4. `assets/documents/agro/agromonetary-research-note-02-es.pdf`
-5. `assets/documents/gold-dxy/gold-dxy-research-note-01-en.pdf`
-6. `assets/documents/gold-dxy/gold-dxy-research-note-01-es.pdf`
-
-None of the six Research Note PDFs listed above is present in this package. Only final approved Research Note PDF exports may be added later. The two separately classified Product Samples are already present under `assets/documents/agro/`.
+The current public Research Note count is **three bilingual notes and six PDFs**. AgroMonetary Research Notes No. 01 and No. 02 remain classified as historical public portfolio evidence. Gold–DXY Research Note No. 01 remains classified as a synthetic public research demonstration. No editable source, draft or internal QA file accompanies the approved PDFs.
 
 ## Future public
 

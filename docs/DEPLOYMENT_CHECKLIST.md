@@ -8,6 +8,9 @@ All publication and deployment items remain unresolved. Do not deploy until each
 - [x] Add the approved Spanish Monthly Strategic Agro-Monetary Report historical sample.
 - [x] Verify both copied sample hashes against their approved source PDFs.
 - [x] Confirm that no editable source or additional product edition was added.
+- [x] Add the six approved Research Note PDFs under stable public filenames.
+- [x] Verify every copied Research Note PDF hash against its approved source PDF.
+- [x] Confirm that the three bilingual Research Notes expose no editable source, draft or internal QA file.
 
 These checks cover local package preparation only and do not authorize publication.
 
@@ -22,9 +25,9 @@ These checks cover local package preparation only and do not authorize publicati
 
 - [x] Approve and add the AgroMonetary Research dashboard URL: `https://agromonetary-research.streamlit.app/`.
 - [x] Approve and add the Gold–DXY Research dashboard URL: `https://gold-dxy-research.streamlit.app/`.
-- [ ] Add all six final approved public Research Note PDFs.
-- [ ] Verify every final PDF filename against `docs/PUBLIC_CONTENT_INVENTORY.md`.
-- [ ] Confirm that no editable DOCX or internal QA source accompanies the PDFs.
+- [x] Add all six final approved public Research Note PDFs.
+- [x] Verify every final PDF filename against `docs/PUBLIC_CONTENT_INVENTORY.md`.
+- [x] Confirm that no editable DOCX or internal QA source accompanies the PDFs.
 
 ## Search and hosting configuration
 
