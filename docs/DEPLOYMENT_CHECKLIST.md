@@ -1,6 +1,6 @@
 # Deployment Checklist
 
-All publication and deployment items remain unresolved. Do not deploy until each unresolved item has been approved, completed and independently reviewed.
+The public portfolio is deployed through GitHub Pages. This checklist records the completed canonical-domain publication closure and preserves any explicitly inactive optional destination.
 
 ## Completed local package integration
 
@@ -31,20 +31,22 @@ These checks cover local package preparation only and do not authorize publicati
 
 ## Search and hosting configuration
 
-- [ ] Replace the reserved `.invalid` sitemap URL with the final domain.
-- [ ] Add the approved sitemap directive to `robots.txt`.
-- [ ] Verify `robots.txt` after the final public paths are known.
-- [ ] Connect `agromonetaryresearch.com` as the custom domain.
-- [ ] Configure GitHub Pages for the approved branch and repository path.
-- [ ] Confirm HTTPS on the final public site.
+- [x] Finalize `sitemap.xml` with only `https://agromonetaryresearch.com/`.
+- [x] Add the canonical sitemap directive to `robots.txt`.
+- [x] Verify `robots.txt` contains no private paths.
+- [x] Connect and verify `agromonetaryresearch.com` as the custom domain.
+- [x] Configure GitHub Pages for the approved branch and repository path.
+- [x] Confirm Enforce HTTPS and successful HTTPS access on the final public site.
+- [x] Confirm `https://www.agromonetaryresearch.com/` resolves to the canonical site.
+- [x] Add exactly one canonical tag for `https://agromonetaryresearch.com/`.
 
 ## Final verification
 
-- [ ] Test all activated external links.
-- [ ] Complete final mobile QA at 390 px and 768 px.
-- [ ] Complete final desktop QA at 1440 px.
-- [ ] Complete final EN/ES content QA.
-- [ ] Complete the final privacy review.
-- [ ] Review the complete repository inventory before the first commit.
-- [ ] Confirm no prohibited file type is staged for publication.
-- [ ] Complete the final GitHub Pages path test.
+- [x] Test all activated external links.
+- [x] Complete final mobile QA at 390 px and 768 px.
+- [x] Complete final desktop QA at 1440 px.
+- [x] Complete final EN/ES content QA.
+- [x] Complete the final privacy review.
+- [x] Review the complete repository inventory.
+- [x] Confirm no prohibited file type is present or staged for publication.
+- [x] Complete the final GitHub Pages and custom-domain path tests.

@@ -9,7 +9,7 @@ The site demonstrates research process and analytical communication. It is not a
 
 ## Current status
 
-**Local approved candidate with two integrated public product samples, three bilingual Research Notes, a confirmed public contact email, an approved LinkedIn profile, approved AgroMonetary Research and Gold–DXY Research dashboard URLs, and an approved final domain.** Final deployment has not been completed. The GitHub profile URL remains intentionally inactive.
+**Published public portfolio with two approved Product Samples, three bilingual Research Notes, a confirmed public contact email, an approved LinkedIn profile and two live public dashboards.** GitHub Pages serves the canonical site at `https://agromonetaryresearch.com/`; DNS is verified, HTTPS is enforced and `https://www.agromonetaryresearch.com/` resolves to the canonical site. The GitHub profile URL remains intentionally inactive.
 
 ## Local preview
 
@@ -59,15 +59,15 @@ English is the default language. The visible EN/ES control changes all landing c
 
 The landing uses semantic landmarks, a sequential heading structure, keyboard-accessible controls, visible focus states, sufficient contrast and reduced-motion support. The skip link is visually hidden during normal use, becomes visible when keyboard-focused and targets the main content. The mobile menu reports its expanded state and closes with Escape.
 
-## GitHub Pages compatibility
+## GitHub Pages publication
 
-The package uses semantic HTML, modern CSS and minimal vanilla JavaScript. All production asset references are relative, and no framework, database, API or server-side runtime is required. `404.html` provides a repository-local fallback page.
+The package is published through GitHub Pages at `https://agromonetaryresearch.com/`. It uses semantic HTML, modern CSS and minimal vanilla JavaScript. Production document references remain relative, and no framework, database, API or server-side runtime is required. `404.html` provides a repository-local fallback page.
 
-Before GitHub Pages is enabled, complete every unresolved item in `docs/DEPLOYMENT_CHECKLIST.md`, replace the reserved sitemap placeholder, and repeat the final QA.
+The landing declares the canonical URL, `sitemap.xml` contains only the canonical root HTML URL, and `robots.txt` references the canonical sitemap. DNS verification, the `www` resolution path and enforced HTTPS are recorded in `docs/FINAL_PUBLICATION_QA.md`.
 
 ## Public-link configuration
 
-`config/public-links.js` contains two active relative paths for the approved Spanish product samples, six active relative paths for the approved bilingual Research Notes, the confirmed public email `daniel@agromonetaryresearch.com`, the approved LinkedIn profile `https://www.linkedin.com/in/daniel-a-guerra`, the approved AgroMonetary Research dashboard `https://agromonetary-research.streamlit.app/`, the approved Gold–DXY Research dashboard `https://gold-dxy-research.streamlit.app/`, and the approved final domain `agromonetaryresearch.com`. The GitHub placeholder remains empty. Empty placeholders must never be replaced with guessed values.
+`config/public-links.js` contains two active relative paths for the approved Spanish product samples, six active relative paths for the approved bilingual Research Notes, the confirmed public email `daniel@agromonetaryresearch.com`, the approved LinkedIn profile `https://www.linkedin.com/in/daniel-a-guerra`, the approved AgroMonetary Research dashboard `https://agromonetary-research.streamlit.app/`, the approved Gold–DXY Research dashboard `https://gold-dxy-research.streamlit.app/`, and the canonical public domain `https://agromonetaryresearch.com`. The GitHub placeholder remains empty. Empty placeholders must never be replaced with guessed values.
 
 Future activation process:
 

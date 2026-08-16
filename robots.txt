@@ -1,5 +1,4 @@
 User-agent: *
 Allow: /
 
-# Add the following directive only after the final public domain is approved:
-# Sitemap: FINAL_DOMAIN_PLACEHOLDER/sitemap.xml
+Sitemap: https://agromonetaryresearch.com/sitemap.xml

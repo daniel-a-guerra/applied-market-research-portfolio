@@ -17,6 +17,9 @@ This inventory defines what may and may not enter the public repository. Classif
 - Approved AgroMonetary Research public dashboard: `https://agromonetary-research.streamlit.app/`.
 - Approved Gold–DXY Research public dashboard: `https://gold-dxy-research.streamlit.app/`.
 - Approved final domain: `agromonetaryresearch.com`.
+- Canonical public URL: `https://agromonetaryresearch.com/`.
+- Verified `www` entry point: `https://www.agromonetaryresearch.com/`, resolving to the canonical site.
+- Final canonical metadata, single-URL sitemap and public `robots.txt` sitemap directive.
 - Approved disclaimer and non-predictive positioning.
 - Product Samples section with two historical AgroMonetary Research demonstrations.
 - `assets/documents/agro/AMR_Weekly_Briefing_Public_Sample_ES.pdf` — approved Spanish-language historical sample dated 19 June 2026.
@@ -32,6 +35,8 @@ This inventory defines what may and may not enter the public repository. Classif
 The current public product-sample count is **two PDFs**. Both are Spanish-language historical portfolio demonstrations. No English sample, editable source, recurring edition or additional product edition is included.
 
 The current public Research Note count is **three bilingual notes and six PDFs**. AgroMonetary Research Notes No. 01 and No. 02 remain classified as historical public portfolio evidence. Gold–DXY Research Note No. 01 remains classified as a synthetic public research demonstration. No editable source, draft or internal QA file accompanies the approved PDFs.
+
+The published HTML inventory contains one crawlable canonical page. Streamlit dashboards, direct PDF files, anchor fragments and repository URLs are intentionally excluded from `sitemap.xml`.
 
 ## Future public
 

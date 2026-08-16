@@ -17,5 +17,5 @@ window.PUBLIC_LINKS = Object.freeze({
   LINKEDIN_URL: "https://www.linkedin.com/in/daniel-a-guerra",
   GITHUB_PROFILE_URL: "",
   PUBLIC_CONTACT_EMAIL: "daniel@agromonetaryresearch.com",
-  FINAL_DOMAIN: "agromonetaryresearch.com"
+  FINAL_DOMAIN: "https://agromonetaryresearch.com"
 });
